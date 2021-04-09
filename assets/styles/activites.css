@@ -1,0 +1,89 @@
+#activites h1 {
+    margin-left: 1em;
+    font-family: "f_bold";
+    font-size: 1.2em;
+}
+
+.move-act { width: 95%; }
+
+.card-act {
+    margin: 0.5em auto 1em;
+    background: #fff;
+    border-radius: 15px;
+    height: 150px;
+    width: 85%;
+}
+
+.move-act h3 { padding: 0.5em; }
+
+.vue-act {
+    height: 100%;
+    padding: 1em;
+    background-position: right 100% top 50%;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+@media screen and (min-width:576px) {
+    
+    .move-act {
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0 2em;
+    }
+
+    .move-rev {
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+    }
+
+    .move-1, .move-3, .move-2, .move-4 { width: 50%; }
+
+    .move-1 .card-act { height: 250px; }
+
+    .move-2>.up .card-act { height: 100px; margin-bottom: 20px; }
+
+    .move-2>.down .card-act { height: 130px;}
+
+    .move-3 .card-act { height: 250px; }
+
+    .move-4>.up .card-act { height: 130px; margin-bottom: 20px; }
+
+    .move-4>.down .card-act { height: 110px; }
+
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+    #activites h1 { margin-left: 3em; }
+
+    .move-act { flex-flow: row wrap; }
+
+    .move-rev { width: 50%; }
+
+    .move-1, .move-2 { width: 50% }
+
+    .move-3, .move-4 { width: 25%; }
+
+    .move-1 .card-act { height: 350px; }
+
+    .move-2>.up .card-act { height: 145px; margin-bottom: 20px; }
+
+    .move-2>.down .card-act { height: 185px; }
+
+    .move-3 .card-act { height: 350px; }
+
+    .move-4>.up .card-act { height: 185px; margin-bottom: 20px; }
+
+    .move-4>.down .card-act { height: 145px; }
+
+}

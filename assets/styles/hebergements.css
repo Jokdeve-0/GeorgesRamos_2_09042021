@@ -1,0 +1,44 @@
+#hebergement { padding: 1em; }
+
+#hebergement h1 { font-family: "f_bold"; font-size: 1.2em; }
+
+.card-heb { height: 200px; }
+
+.vue-heb {
+    height: 50%;
+    padding: 1em;
+    background-position: right 100% top 50%;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.l-heb .desc{ height:50%; }
+
+#hebergement h2 {
+    margin: 0;
+    padding-left: 1em;
+    font-family: "f_bold";
+    font-size: 0.9em;
+}
+
+@media screen and (min-width:576px) {
+
+    .l-heb { display: block; }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .move-heb {
+        float: left;
+        width: 65%;
+        margin-right: 2em;
+        background: #f2f2f2;
+        border-radius: 25px;
+    }
+
+    .l-heb { width: 33%; }
+
+    .card-heb { height: 150px; }
+}

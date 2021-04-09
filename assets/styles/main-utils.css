@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "f_light";
+    src: url("../font/Raleway-Light.ttf");
+}
+@font-face {
+    font-family: "f_regular";
+    src: url("../font/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: "f_bold";
+    src: url("../font/Raleway-Bold.ttf");
+}
+
+/* Url Img */
+.img1{background-image: url('../img/heb/img1.jpg');}
+.img2{background-image: url('../img/heb/img2.jpg');}
+.img3{background-image: url('../img/heb/img3.jpg');}
+.img4{background-image: url('../img/heb/img6.jpg');}
+.img5{background-image: url('../img/heb/img5.jpg');}
+.img6{background-image: url('../img/heb/img6.jpg');}
+.img7{background-image: url('../img/heb/img7.jpg');}
+.img8{background-image: url('../img/heb/img8.jpg');}
+.img9{background-image: url('../img/heb/img9.jpg');}
+.img10{background-image: url('../img/heb/img10.jpg');}
+.img11{background-image: url('../img/act/act1.jpg');}
+.img12{background-image: url('../img/act/act2.jpg');}
+.img13{background-image: url('../img/act/act3.jpg');}
+.img14{background-image: url('../img/act/act4.jpg');}
+.img15{background-image: url('../img/act/act5.jpg');}
+.img16{background-image: url('../img/act/act6.jpg');}
+
+
+.w50{width:50%;}
+
+.w100{width:100%;}
+
+.dflex{display:flex;}
+
+.jcontent-c{justify-content: center;}
+
+.jcontent-b{justify-content: space-between;}
+
+.fDir-c{flex-direction: column;}
+
+.itm-c{align-items: center;}
+
+.box-sw{
+    box-shadow: 0 0 8px rgb(161, 161, 161);
+}
+
+
+.hide {display: none;}
+
+.show-xs {display: block;}
+
+.show-xl {display: none;}
+
+@media screen and (min-width: 576px){
+
+    .hide {display: block;}
+
+    .show-xs {display: block;}
+
+    .show-xl {display: none;}
+
+}
+@media screen and (min-width: 992px){
+
+    .hide {display: none;}
+    
+    .show-xs {display: none;}
+
+    .show-xl {display: block;}
+
+}
+

@@ -1,0 +1,33 @@
+/* Footer */
+footer{
+    padding: 0.5em 2em;
+    background: #F2F2F2;
+}
+footer h4{
+    margin: 1.5em 0 0;
+    font-family: "f_regular";
+    font-size :1em;
+}
+footer ul{
+    margin-bottom: 2em ;
+    padding-left: 0;
+    list-style: none;
+}
+footer li{
+    margin-bottom: 0.5em;;
+}
+footer a{
+    color:#2a2a2a;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 576px) {
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footDiv{
+        width:30%;
+    }
+}
