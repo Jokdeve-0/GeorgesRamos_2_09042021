@@ -15,11 +15,13 @@
 
 .l-heb .desc{ height:50%; }
 
-#hebergement h2 {
+#hebergement h2 a{
     margin: 0;
     padding-left: 1em;
     font-family: "f_bold";
-    font-size: 0.9em;
+    font-size: 0.6em;
+    color:#2a2a2a;
+    text-decoration: none;
 }
 
 @media screen and (min-width:576px) {

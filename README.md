@@ -6,8 +6,8 @@
 
 /*--LIENS------------------------------------------------------------------------------*/
 
-# Dépot Github => https://
-# Page Github => https://
+# Dépot Github => https://github.com/Jokdeve-0/GeorgesRamos_2_09042021
+# Page Github => https://jokdeve-0.github.io/GeorgesRamos_2_09042021/
 
 /*--Structure des dossiers   (*dir =>) ------------------------------------------------*/
 
