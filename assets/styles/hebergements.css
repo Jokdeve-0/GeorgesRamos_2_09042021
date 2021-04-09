@@ -14,9 +14,10 @@
 }
 
 .l-heb .desc{ height:50%; }
-
-#hebergement h2 a{
+#hebergement h2{
     margin: 0;
+}
+#hebergement h2 a{
     padding-left: 1em;
     font-family: "f_bold";
     font-size: 0.6em;
