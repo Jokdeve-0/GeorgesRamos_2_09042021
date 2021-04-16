@@ -2,14 +2,18 @@
 
 projet 2 openclassrooms "Transformez une maquette en site web"
 
-##Liens
+## Liens
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
+
 Dépot Github : https://github.com/Jokdeve-0/GeorgesRamos_2_09042021
+
 Page Github  : https://jokdeve-0.github.io/GeorgesRamos_2_09042021/
 
 ## Compatibilité
 [![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com)
+
 Compatible avec les dernières versions de Chrome et Firefox
+
 W3C validé HTML et CSS3
 
 ## Structure
@@ -53,7 +57,8 @@ Identité graphique :
 
 ## Détail de l'application
 
--Responsive Breakpoints => MobileFirst , tablette 576px, desktop 992px
+### Responsive Breakpoints :
+MobileFirst , tablette 576px, desktop 992px
 
 -Deux menus de navigation :
     -Un sur version mobile (width100%) et tablette (width50%)
@@ -67,13 +72,16 @@ Identité graphique :
 
 -Le footer est un menu (ul) composer de liens(a) inactif.
 
-###Le responive sur Tablette :
+### Le responive sur Tablette :
 le menu se réduit de 50% les Div-cards se mettent sur deux éléments par ligne et affiche un élément supplémentaire dans la section Populaires subtilité dans la section activités, afin que les deux plus grand éléments ne soit pas l'un au-dessus de l'autre, j'ai appliqué un "row-reverse"
 
 ## Fabriqué avec
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 Aucun framework n'a été utilisé "From scratch"
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
 ### Versions
