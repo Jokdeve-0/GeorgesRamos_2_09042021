@@ -1,4 +1,4 @@
-#activites h1 {
+#activites h2 {
     margin-left: 1em;
     font-family: "f_bold";
     font-size: 1.2em;
@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 992px) {
 
-    #activites h1 { margin-left: 3em; }
+    #activites h2 { margin-left: 3em; }
 
     .move-act { flex-flow: row wrap; }
 

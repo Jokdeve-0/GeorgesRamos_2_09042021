@@ -19,7 +19,7 @@ body{
     .blocCenter {
         display: flex;
         flex-flow: row-reverse wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: stretch;
     }
 }
