@@ -40,6 +40,8 @@
 
 .jcontent-b{justify-content: space-between;}
 
+.jcontent-e{justify-content: flex-end;}
+
 .fDir-c{flex-direction: column;}
 
 .itm-c{align-items: center;}

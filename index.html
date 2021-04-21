@@ -16,64 +16,62 @@
 
 <body>
     <header>
-        <div class="topBar dflex jcontent-b itm-c">
-            <div class="dflex jcontent-b itm-c w100">
-                <a href="index.html"><img src="assets/img/Reservia.svg" alt="Logo Reservia"></a>
-                <nav class="naviBar-xl">
-                    <a class="a-xl active" href="#hebergement">Herbergements</a>
-                    <a class="a-xl" href="#activites">Activités</a>
-                </nav>
-            </div>
+        <div class="head1">
+            <a href="index.html"><img src="assets/img/Reservia.svg" alt="Logo Reservia"></a>
+        </div>
+        <aside class="head2 dflex jcontent-e itm-c">
             <a id="sign" href="#">s'inscrire</a>
-        </div>
-        <nav class="naviBar-xs dflex jcontent-c itm-c">
-            <a class="a-xs active" href="#hebergement">Herbergements</a>
-            <a class="a-xs" href="#activites">Activités</a>
+        </aside>
+        <nav class="head3">
+            <a class="a-xl active" href="#hebergement">Herbergements</a>
+            <a class="a-xl" href="#activites">Activités</a>
         </nav>
-        <div class="topTitle">
-            <div class="title">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-            </div>
-            <div class="recherche dflex itm-c">
-                <div class="icone dflex jcontent-c itm-c">
-                    <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <input type="text" placeholder="Ville, Pays" value="Marseille, france">
-                <button type="button"><i class="fas fa-search show-xs"></i><span
-                        class="show-xl ">rechercher</span></button>
-            </div>
-            <div class="filtre dflex itm-c w100">
-                <h3>Filtres</h3>
-                <button type="button" class="ico">
-                    <i class="fas fa-money-bill-wave fa_filtre"></i>
-                    <span class="sp_filtre">Economique</span>
-                </button>
-                <button type="button" class="ico">
-                    <i class="fas fa-child fa_filtre"></i>
-                    <span class="sp_filtre">Familial</span>
-                </button>
-                <button type="button" class="ico">
-                    <i class="fas fa-heart fa_filtre"></i>
-                    <span class="sp_filtre">Romantique</span>
-                </button>
-                <button type="button" class="ico">
-                    <i class="fas fa-dog fa_filtre"></i>
-                    <span class="sp_filtre">Animaux autorisés</span>
-                </button>
-            </div>
-            <div class="info">
-                <i class="fas fa-info"></i>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
-        </div>
     </header>
-    <div id="blocBody">
-        <div class="blocCenter">
+
+    <main>
+
+    <section class="topTitle">
+        <div class="title">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div class="recherche dflex itm-c">
+            <div class="icone dflex jcontent-c itm-c">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <input type="text" placeholder="Ville, Pays" value="Marseille, france">
+            <button type="button"><i class="fas fa-search show-xs"></i><span class="show-xl ">rechercher</span></button>
+        </div>
+        <div class="filtre dflex itm-c w100">
+            <h2>Filtres</h2>
+            <button type="button" class="ico">
+                <i class="fas fa-money-bill-wave fa_filtre"></i>
+                <span class="sp_filtre">Economique</span>
+            </button>
+            <button type="button" class="ico">
+                <i class="fas fa-child fa_filtre"></i>
+                <span class="sp_filtre">Familial</span>
+            </button>
+            <button type="button" class="ico">
+                <i class="fas fa-heart fa_filtre"></i>
+                <span class="sp_filtre">Romantique</span>
+            </button>
+            <button type="button" class="ico">
+                <i class="fas fa-dog fa_filtre"></i>
+                <span class="sp_filtre">Animaux autorisés</span>
+            </button>
+        </div>
+        <div class="info">
+            <i class="fas fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </section>
+    
+        <section class="blocCenter">
             <div class="move-pop">
                 <div id="populaires">
                     <div class="titre dflex jcontent-b itm-c">
-                        <h1>Les plus populaires</h1>
+                        <h2>Les plus populaires</h2>
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="cards dflex" id="pop">
@@ -112,7 +110,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </a><a class="link hide" href="#">
+                        </a>
+                        <a class="link hide" href="#">
                             <div class="card dflex box-sw">
                                 <div class="vue img4"></div>
                                 <div class="desc dflex fDir-c">
@@ -153,7 +152,7 @@
             </div>
             <div class="move-heb">
                 <div id="hebergement">
-                    <h1>Hébergements à Marseille</h1>
+                    <h2>Hébergements à Marseille</h2>
                     <div class="cards dflex" id="heb">
                         <a class="link l-heb" href="#">
                             <div class="card card-heb dflex fDir-c box-sw">
@@ -172,7 +171,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </a><a class="link l-heb" href="#">
+                        </a>
+                        <a class="link l-heb" href="#">
                             <div class="card card-heb dflex fDir-c box-sw">
                                 <div class="vue-heb img6"></div>
                                 <div class="desc dflex fDir-c">
@@ -189,7 +189,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </a><a class="link l-heb" href="#">
+                        </a>
+                        <a class="link l-heb" href="#">
                             <div class="card card-heb dflex fDir-c box-sw">
                                 <div class="vue-heb img7"></div>
                                 <div class="desc dflex fDir-c">
@@ -206,7 +207,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </a><a class="link l-heb" href="#">
+                        </a>
+                        <a class="link l-heb" href="#">
                             <div class="card card-heb dflex fDir-c box-sw">
                                 <div class="vue-heb img8"></div>
                                 <div class="desc dflex fDir-c">
@@ -223,7 +225,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </a><a class="link l-heb" href="#">
+                        </a>
+                        <a class="link l-heb" href="#">
                             <div class="card card-heb dflex fDir-c box-sw">
                                 <div class="vue-heb img9"></div>
                                 <div class="desc dflex fDir-c">
@@ -240,7 +243,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </a><a class="link l-heb" href="#">
+                        </a>
+                        <a class="link l-heb" href="#">
                             <div class="card card-heb dflex fDir-c box-sw">
                                 <div class="vue-heb img10"></div>
                                 <div class="desc dflex fDir-c">
@@ -262,9 +266,9 @@
                     <h2><a href="#">Afficher plus</a></h2>
                 </div>
             </div>
-        </div>
-        <div id="activites">
-            <h1>Activités à Marseille</h1>
+        </section>
+        <section id="activites">
+            <h2>Activités à Marseille</h2>
             <div class="cards dflex">
                 <div class="move-act">
                     <div class="move-rev">
@@ -347,8 +351,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>  
     <footer>
         <div class="footDiv">
             <h4>A propos</h4>
