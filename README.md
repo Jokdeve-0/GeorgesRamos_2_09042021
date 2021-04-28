@@ -60,10 +60,6 @@ Identité graphique :
 ### Responsive Breakpoints :
 MobileFirst , tablette 576px, desktop 992px
 
--Deux menus de navigation :
-    -Un sur version mobile (width200%) et tablette (width50%)
-    -Un sur version desktop Chaque lien vous dirige vers la section attitrée
-
 -La barre de recherche (input) possède un placeholder et une value "en démo" (button) affiche un icone "loupe" sur mobile et tablette, et affiche le texte sur desktop
 
 -Les filtres Inactif sur ce prototype. Au survol des boutons, j'ai choisi de grisé le background et d'inversé les couleurs de l'icône et de son background
